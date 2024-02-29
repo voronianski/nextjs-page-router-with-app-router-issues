@@ -9,4 +9,6 @@
 1. Observe that there's `app/blog/page.tsx` page that should be accessed with http://localhost:3000/en-us/blog/
 2. However if you try to access it `pages/[[...slug]].tsx` will be used (other pages from `pages/*` are accessible correctly e.g. http://localhost:3000/en-us/careers/)
 
+Next.js repo discussion - https://github.com/vercel/next.js/discussions/62677
+
 ---
